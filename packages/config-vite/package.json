@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/config-vite",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "types": "index.d.ts",
+  "dependencies": {
+    "vite": "latest",
+    "@vitejs/plugin-react-swc": "latest",
+    "vite-tsconfig-paths": "latest"
+  }
+}

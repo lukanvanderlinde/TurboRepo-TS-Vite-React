@@ -1,0 +1,43 @@
+{
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": false,
+        "**/.hg": false,
+        "**/CVS": false,
+        "**/.DS_Store": false,
+        "**/Thumbs.db": false,
+        "**/.firebaserc": false,
+        "**/.turbo": false,
+        "**/.firebase": false,
+        "**/.vscode": false,
+        "**/.storybook": false,
+        "**/**.log": false,
+        "**/yarn.lock": false,
+        "**/node_modules": false,
+        "**/dist": false,
+        "**/emulator": false,
+        "**/routeTree.gen.ts": false,
+        "**/*.d.ts": false
+    },
+    "material-icon-theme.files.associations": {
+        "storage.rules": "firebase",
+        "database.rules.json": "firebase",
+        "tsconfig.json": "typescript-def",
+        "tsconfig.node.json": "typescript-def"
+    },
+    "material-icon-theme.folders.associations": {
+        "emulators": "firebase",
+        "config-vite": "config",
+        "config-typescript": "config",
+        "config-eslint": "config",
+        "config-postcss": "config"
+    },
+    "cSpell.words": [
+        "embla",
+        "mantine",
+        "nprogress",
+        "tanstack",
+        "tiptap"
+    ],
+    "cSpell.language": "en,pt-BR"
+}

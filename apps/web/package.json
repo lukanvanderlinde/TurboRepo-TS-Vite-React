@@ -4,19 +4,23 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --clearScreen false",
+    "dev": "vite --open",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint \"src/**/*.ts\""
   },
   "dependencies": {
-    "@repo/ui": "*"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
-    "eslint": "^8.57.0",
-    "typescript": "^5.3.3",
-    "vite": "^5.1.4"
+    "@monorepo/config-vite": "*",
+    "@monorepo/config-eslint": "*",
+    "@monorepo/config-typescript": "*",
+    "eslint": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.18"
   }
 }
